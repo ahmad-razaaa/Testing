@@ -1,11 +1,11 @@
-import React from 'react'
-import ExpiryInput from './ExpiryInput'
+import Test from './test'
 
 export default function App(){
   return (
-    <div style={{padding: '2rem', fontFamily: 'sans-serif'}}>
-      <h1>ExpiryInput (Vite)</h1>
-      <ExpiryInput />
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 flex items-center justify-center p-4">
+      <div className="bg-white rounded-2xl shadow-2xl p-8 md:p-12 max-w-md w-full">
+        <Test />
+      </div>
     </div>
   )
 }
